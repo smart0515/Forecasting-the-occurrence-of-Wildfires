@@ -36,3 +36,7 @@ project term 2023.02.01~
 - 기상 데이터 → ASOS + AWS
 - 인적 데이터 → 소방서, 등산로, 대도시 인접도
 - 자연적 데이터 → TPI, 임업도
+
+## 모델링
+
+- 분류기반모델 -> Randomforest/Catboost
