@@ -196,4 +196,4 @@ project term 2023.02.01~
 - 웹 페이지에 서비스 
 - 최종 결과물 도출
 
-
+![image](https://github.com/smart0515/Forecasting-the-occurrence-of-Wildfires/assets/48974564/c9e9b35f-03f1-4cb7-b765-90714140cb01)
