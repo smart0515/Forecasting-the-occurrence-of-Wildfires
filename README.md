@@ -129,6 +129,7 @@ project term 2023.02.01~
 
 **2023.04.24 진행상황**
 - 기상데이터 결측값을 처리 후 보간 완료 (04.12~04.13)
+![image](https://github.com/smart0515/Forecasting-the-occurrence-of-Wildfires/assets/48974564/cd4d7c84-3ace-4f30-8e41-7f1ecf24342a)
 - 이미지를 하나로 병합하여 input image 생성완료 (04.13)
 - 테스트를 위해 강원도의 랜덤지점의 최근 10년간 계절 별로 동일한 비율만큼의 기상데이터를 추출 및 이미지화 (04.14~04.17)
 - Baseline 모델 구축 (04.17~04.21)
@@ -197,3 +198,17 @@ project term 2023.02.01~
 - 최종 결과물 도출
 
 ![image](https://github.com/smart0515/Forecasting-the-occurrence-of-Wildfires/assets/48974564/c9e9b35f-03f1-4cb7-b765-90714140cb01)
+
+<br><br>
+- 토지이용도(Landuse) tif 데이터 위에 산불난 지점을 표현해본 결과,
+  - 고도가 낮고
+  - 주거지역 및 상업지역등의 용도인 지역이며
+  - 인구밀도가 높은 지역
+인 경우에 산불이 많이 발생했음을 확인할 수 있었다.
+
+![image](https://github.com/smart0515/Forecasting-the-occurrence-of-Wildfires/assets/48974564/774899eb-7fab-4266-8a36-32d4d649a5ec)
+
+정리하자면 고도가 낮은 평지부근에 인구가 많이 밀집되어 있고,<br>
+이 지점의 **기상+지형** 요인만으로 분석할때보다 **기상+지형+인적요인**으로 분석시 **더 높은 산불 발생확률**을 보인다.<br>
+이에 따라 산불이라는 발생원인이 매우 불규칙한 재해에 대해서 **인간의 요인이 반영됨**을 확인할 수 있다.
+
